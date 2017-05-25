@@ -119,6 +119,10 @@ vows.describe('Test suite for node-config')
       assert.equal(CONFIG.Customers.lang2, 'EN overwrite');
       assert.equal(CONFIG.Customers.lang3, 'EN-GB overwrite');
       assert.equal(CONFIG.Customers.lang4, 'lang/local overwrite');
+      assert.equal(CONFIG.Customers.lang5, 'lang/EN-test overwrite');
+      assert.equal(CONFIG.Customers.lang6, 'lang/EN-GB-test overwrite');
+      assert.equal(CONFIG.Customers.lang7, 'lang/EN-GB-test-3 overwrite');
+      assert.equal(CONFIG.Customers.lang8, 'lang/EN-3 overwrite');
     }
   },
 
